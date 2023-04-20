@@ -6,7 +6,7 @@ from oauth2client.service_account import ServiceAccountCredentials
 
 SCOPES = ['https://www.googleapis.com/auth/analytics.readonly']
 KEY_FILE_LOCATION = './chave_conta_servico.json'
-VIEW_ID = '263629054'
+VIEW_ID = 'xxxxxxx'
 
 def initialize_analyticsreporting():
   credentials = ServiceAccountCredentials.from_json_keyfile_name(
